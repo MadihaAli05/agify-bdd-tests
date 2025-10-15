@@ -1,4 +1,4 @@
-# 🧪 Agify.io BDD API Tests (Cucumber + TypeScript)
+# Agify.io BDD API Tests (Cucumber + TypeScript)
 
 Behavior-Driven Development (BDD) test suite for the public [Agify API](https://agify.io).  
 These automated tests validate the **functionality and structure** of the API — not the accuracy of the predicted ages.
