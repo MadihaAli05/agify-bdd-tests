@@ -167,3 +167,23 @@ jobs:
         with:
           name: cucumber-report
           path: reports/cucumber-report.html
+
+---
+
+## Test Execution Demonstration
+
+All BDD scenarios were executed successfully against the **live [Agify.io](https://api.agify.io)** endpoint.
+
+**Environment:**
+- Node.js: v20.x  
+- npm: v10.x  
+- Cucumber.js with TypeScript
+
+**Command:**
+```bash
+npm test
+
+Output:
+
+8 scenarios (8 passed)
+40 steps (40 passed)
