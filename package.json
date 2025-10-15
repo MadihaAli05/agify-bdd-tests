@@ -1,0 +1,26 @@
+{
+  "name": "agify-bdd-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "cucumber-js",
+  "test:all": "cucumber-js --tags 'not @none'",
+  "test:smoke": "cucumber-js --tags '@smoke'",
+  "test:negative": "cucumber-js --tags '@negative'",
+  "test:batch": "cucumber-js --tags '@batch'",
+  "test:report": "cucumber-js --format html:reports/cucumber-report.html",
+  "clean": "rm -rf dist node_modules reports"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@types/node": "^24.7.2",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
